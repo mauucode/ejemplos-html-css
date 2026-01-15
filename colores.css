@@ -1,0 +1,56 @@
+div{
+width: 200px;
+height: 200px;
+
+}
+
+/* palabra clave */
+#aplicacolor1{
+    background-color: red;
+}   
+
+/* HEXADECIMAL */
+#aplicacolor2{
+    background-color: #12acc1;
+}
+
+/* RGB */
+#aplicacolor3{
+    background-color: rgb(10, 245, 21);
+}
+
+/* HSL */
+#aplicacolor4{
+    background-color: hsl(250deg, 30%, 50%);
+}
+
+/* Linear Gradiante */
+#aplicacolor5{
+ 
+    background: linear-gradient(90deg, blue, red);
+}
+
+/* Radial Gradiante */
+#aplicacolor6{
+ 
+    background: radial-gradient(circle, blue, green, red, orange);
+}
+
+/* TRANSPARENTE */
+#aplicacolor7{
+    background-color: rgba(26, 252, 50, 0.2);
+}
+
+/* IMAGEN CUADRO */
+#imagenCuadro{
+    width: 50%;
+    height: 100vh;
+
+    background-color:black;
+    background-image: url('img/prueba.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 80%;
+ 
+}

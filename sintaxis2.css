@@ -1,0 +1,25 @@
+/* Selecciona todos los parrafos dentro del contenedor */
+#contenedor p{
+    font-size: 18px;
+    color: yellow;
+}
+
+/* Selecciona el primer parrafo dentro del contenedor */
+#contenedor p:first-child{
+    font-size: 25px;
+    color: red;
+}
+/* Selecciona el ultimo parrafo dentro del contenedor */
+#contenedor p:last-child{
+    font-size: 15px;
+    color: blue;
+}
+
+
+/*even -> pares, odd -> impares*/
+
+/* Selecciona el quinto parrafo dentro del contenedor */
+#contenedor p:nth-child(5){
+    font-size: 20px;
+    color: green;
+}
